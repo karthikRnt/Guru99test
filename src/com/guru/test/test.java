@@ -1,16 +1,7 @@
 package com.guru.test;
          
  import io.selendroid.SelendroidCapabilities;
-        import io.selendroid.SelendroidConfiguration;
-        import io.selendroid.SelendroidDriver;
-        import io.selendroid.SelendroidLauncher;
-        import io.selendroid.device.DeviceTargetPlatform;
-         
-        import org.openqa.selenium.By;
-        import org.openqa.selenium.WebDriver;
-        import org.openqa.selenium.WebElement;
-        import org.testng.Assert;
-        import org.testng.annotations.AfterSuite;
+ import java.util.List;
         import org.testng.annotations.BeforeSuite;
         import org.testng.annotations.Test;
          
