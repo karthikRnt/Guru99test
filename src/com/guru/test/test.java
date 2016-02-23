@@ -57,7 +57,9 @@ package com.guru.test;
                      
                 // Don't request simulator, use real device
                 capa.setEmulator(false);
-                     
+                     /*this is a test code for demo 
+                     of git hub
+                     */
           
                 //capa.wait(10000000);
                  
