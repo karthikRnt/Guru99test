@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/MUSBAH15/Desktop/Guru99/selendroid-client-0.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MUSBAH15/Desktop/Guru99/selendroid-standalone-0.11.0-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MUSBAH15/Desktop/Guru99/selenium-java-2.44.0.zip"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

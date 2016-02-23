@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4" started-at="2015-09-25T13:19:46Z" finished-at="2015-09-25T13:19:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4" started-at="2015-09-25T13:19:46Z" finished-at="2015-09-25T13:19:46Z">
+      <class name="com.guru.test.test">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.guru.test.test@71e7a66b]" name="setUp" is-config="true" duration-ms="0" started-at="2015-09-25T18:49:45Z" finished-at="2015-09-25T18:49:45Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[io.selendroid.exceptions.SelendroidException: Environment variable 'ANDROID_HOME' was not found!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: io.selendroid.exceptions.SelendroidException: Environment variable 'ANDROID_HOME' was not found!
+	at io.selendroid.server.model.SelendroidStandaloneDriver.initApplicationsUnderTest(SelendroidStandaloneDriver.java:144)
+	at io.selendroid.server.model.SelendroidStandaloneDriver.<init>(SelendroidStandaloneDriver.java:82)
+	at io.selendroid.server.SelendroidStandaloneServer.initializeSelendroidServer(SelendroidStandaloneServer.java:61)
+	at io.selendroid.server.SelendroidStandaloneServer.<init>(SelendroidStandaloneServer.java:50)
+	at io.selendroid.SelendroidLauncher.launchServer(SelendroidLauncher.java:49)
+	at io.selendroid.SelendroidLauncher.launchSelendroid(SelendroidLauncher.java:73)
+	at com.guru.test.test.setUp(test.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:298)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: io.selendroid.exceptions.SelendroidException: Environment variable 'ANDROID_HOME' was not found!
+	at io.selendroid.android.AndroidSdk.androidHome(AndroidSdk.java:97)
+	at io.selendroid.android.AndroidSdk.platformToolsHome(AndroidSdk.java:86)
+	at io.selendroid.android.AndroidSdk.aapt(AndroidSdk.java:39)
+	at io.selendroid.android.impl.DefaultAndroidApp.deleteFileFromWithinApk(DefaultAndroidApp.java:102)
+	at io.selendroid.builder.SelendroidServerBuilder.deleteFileFromAppSilently(SelendroidServerBuilder.java:116)
+	at io.selendroid.builder.SelendroidServerBuilder.resignApp(SelendroidServerBuilder.java:125)
+	at io.selendroid.server.model.SelendroidStandaloneDriver.initApplicationsUnderTest(SelendroidStandaloneDriver.java:140)
+	... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.guru.test.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
